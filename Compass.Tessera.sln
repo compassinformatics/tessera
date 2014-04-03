@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAndroidApplication", "SampleAndroidApplication\SampleAndroidApplication.csproj", "{ABE50163-AA49-4C1C-939B-DE7FD9A839F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compass.Tessera.Core", "Compass.Tessera.Core\Compass.Tessera.Core.csproj", "{F41FB4D9-7B3E-4868-9481-076E8731AC94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compass.Common.IO.ShapeFile.Droid", "Compass.Common.IO.ShapeFile.Droid\Compass.Common.IO.ShapeFile.Droid.csproj", "{E23638E5-5BDE-4A62-B20C-D3469F6CFB86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{E588C623-7FC0-4A03-AE55-92E665ABFDD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compass.Tessera.IO.Droid", "Compass.Tessera.IO.Droid\Compass.Tessera.IO.Droid.csproj", "{1E94F923-82BC-4BD0-AE00-DD4C3145D5F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compass.Tessera.IO.Desktop", "Compass.Tessera.IO.Desktop\Compass.Tessera.IO.Desktop.csproj", "{1B30EB55-7240-492C-BABF-FE13AB6082D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleApplications", "SampleApplications", "{E952B733-383E-4DE5-8643-D0DDC414A220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApplication", "SampleWebApplication\SampleWebApplication.csproj", "{2C86E79A-3FC5-444F-BD47-C53A6F99499C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compass.Common.IO.ShapeFile.Desktop", "Compass.Common.IO.ShapeFile.Desktop\Compass.Common.IO.ShapeFile.Desktop.csproj", "{41E9F98A-C650-47DC-81A4-AF6A074AEA94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compass.Tessera.Test", "Compass.Tessera.Test\Compass.Tessera.Test.csproj", "{B3C2D810-5A58-400A-B29E-98B394D2800D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABE50163-AA49-4C1C-939B-DE7FD9A839F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE50163-AA49-4C1C-939B-DE7FD9A839F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE50163-AA49-4C1C-939B-DE7FD9A839F6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ABE50163-AA49-4C1C-939B-DE7FD9A839F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE50163-AA49-4C1C-939B-DE7FD9A839F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE50163-AA49-4C1C-939B-DE7FD9A839F6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F41FB4D9-7B3E-4868-9481-076E8731AC94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41FB4D9-7B3E-4868-9481-076E8731AC94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41FB4D9-7B3E-4868-9481-076E8731AC94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41FB4D9-7B3E-4868-9481-076E8731AC94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E23638E5-5BDE-4A62-B20C-D3469F6CFB86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23638E5-5BDE-4A62-B20C-D3469F6CFB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23638E5-5BDE-4A62-B20C-D3469F6CFB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23638E5-5BDE-4A62-B20C-D3469F6CFB86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E94F923-82BC-4BD0-AE00-DD4C3145D5F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E94F923-82BC-4BD0-AE00-DD4C3145D5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E94F923-82BC-4BD0-AE00-DD4C3145D5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E94F923-82BC-4BD0-AE00-DD4C3145D5F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B30EB55-7240-492C-BABF-FE13AB6082D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B30EB55-7240-492C-BABF-FE13AB6082D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B30EB55-7240-492C-BABF-FE13AB6082D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B30EB55-7240-492C-BABF-FE13AB6082D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C86E79A-3FC5-444F-BD47-C53A6F99499C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C86E79A-3FC5-444F-BD47-C53A6F99499C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C86E79A-3FC5-444F-BD47-C53A6F99499C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C86E79A-3FC5-444F-BD47-C53A6F99499C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41E9F98A-C650-47DC-81A4-AF6A074AEA94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41E9F98A-C650-47DC-81A4-AF6A074AEA94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41E9F98A-C650-47DC-81A4-AF6A074AEA94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41E9F98A-C650-47DC-81A4-AF6A074AEA94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C2D810-5A58-400A-B29E-98B394D2800D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C2D810-5A58-400A-B29E-98B394D2800D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C2D810-5A58-400A-B29E-98B394D2800D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C2D810-5A58-400A-B29E-98B394D2800D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ABE50163-AA49-4C1C-939B-DE7FD9A839F6} = {E952B733-383E-4DE5-8643-D0DDC414A220}
+		{2C86E79A-3FC5-444F-BD47-C53A6F99499C} = {E952B733-383E-4DE5-8643-D0DDC414A220}
+		{E23638E5-5BDE-4A62-B20C-D3469F6CFB86} = {E588C623-7FC0-4A03-AE55-92E665ABFDD1}
+		{1E94F923-82BC-4BD0-AE00-DD4C3145D5F3} = {E588C623-7FC0-4A03-AE55-92E665ABFDD1}
+		{1B30EB55-7240-492C-BABF-FE13AB6082D7} = {E588C623-7FC0-4A03-AE55-92E665ABFDD1}
+		{41E9F98A-C650-47DC-81A4-AF6A074AEA94} = {E588C623-7FC0-4A03-AE55-92E665ABFDD1}
+	EndGlobalSection
+EndGlobal
