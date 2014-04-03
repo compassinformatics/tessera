@@ -72,11 +72,11 @@ After deploying the app to the device, copy the the roads.* files in the Maps fo
 - Code cleanup
 
 ## Credits
-* [NetTopologySuite]( http://code.google.com/p/nettopologysuite)
+* [NetTopologySuite](http://code.google.com/p/nettopologysuite)
 * [GeoFabrik](http://download.geofabrik.de/) for the Ireland road map shapefile used in the sample applications.
 
 ## Libraries
-- The application is using the portable version of the  [NetTopologySuite](code.google.com/p/nettopologysuite) library and its dependencies. For convenience the compiled assemblies are available in this repository.
+- The application is using the portable version of the  [NetTopologySuite](http://code.google.com/p/nettopologysuite) library and its dependencies. For convenience the compiled assemblies are available in this repository.
 - [Proj.Net](https://projnet.codeplex.com/)
 - [GeoAPI.NET](http://geoapi.codeplex.com/)
 - [TinyIoC](https://github.com/grumpydev/TinyIoC)
