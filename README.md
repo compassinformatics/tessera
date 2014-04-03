@@ -2,7 +2,7 @@
 
 # Compass Tessera
 
-[**Visit the demo website.**](http://tessera.compass.ie/demo/)  
+[**Visit the demo website.**](http://w08-iis.compass.ie/tesserademo/)  
 
 Compass Tessera (as in [Tessera](http://en.wikipedia.org/wiki/Tessera)) is a simple shapefile tile engine written in C#.
 The purpose of the library is to provide an easy way to render a shapefile into tiles that can be used as an overlay on Google Maps or similar services.
