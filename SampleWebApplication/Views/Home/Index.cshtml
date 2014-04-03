@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Compass Tessera - Sample web application";
+}
+
+<style type="text/css">
+    /*html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }*/
+    #map-canvas {
+        height: 500px;
+    }
+</style>
+<script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyuc0n5IcWZ2y7KVVRGDmsY1zoS4OER0I&sensor=false">
+</script>
+
+
+<script type="text/javascript">
+    function initialize() {
+        var mapOptions = {
+            center: new google.maps.LatLng(53.297990, -6.179508),
+            zoom: 15,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map-canvas"),
+            mapOptions);
+
+        var imageMapType = new google.maps.ImageMapType({
+            getTileUrl: function (coord, zoom) {
+                return ('http://localhost:49748/api/tile/gettile?x=' + coord.x + '&y=' + coord.y + '&zoomLevel=' + zoom);
+            },
+            tileSize: new google.maps.Size(256, 256)
+        });
+
+        map.overlayMapTypes.push(imageMapType);
+
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+
+<div id="map-canvas" />
