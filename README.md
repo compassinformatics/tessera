@@ -72,7 +72,7 @@ After deploying the app to the device, copy the the roads.* files in the Maps fo
 - Code cleanup
 
 ## Credits
-* [NetTopologySuite](code.google.com/p/nettopologysuite)
+* [NetTopologySuite](http://code.google.com/p/nettopologysuite)
 * [GeoFabrik](http://download.geofabrik.de/) for the Ireland road map shapefile used in the sample applications.
 
 ## Libraries
