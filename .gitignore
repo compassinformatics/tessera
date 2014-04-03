@@ -175,6 +175,12 @@ FakesAssemblies/
 
 # Xamarin
 Components/
-
-#StyleCop
+ 
+# StyleCop
 *.StyleCop
+
+# Images
+SampleWebApplication/Maps/road/*.*
+SampleWebApplication/Maps/*
+
+Keys.txt
