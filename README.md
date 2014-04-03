@@ -83,13 +83,13 @@ After deploying the app to the device, copy the the roads.* files in the Maps fo
 
 
 ## Feedback
-All bugs, feature requests, pull requests, feedback, etc., are welcome. [Create an issue](https://github.com/adam-p/markdown-here/issues). 
+All bugs, feature requests, pull requests, feedback, etc., are welcome. [Create an issue](https://github.com/compassinformatics/tessera/issues). 
 Or ask a question on [StackOverflow](http://stackoverflow.com/questions/tagged/compass-tessera)
 
 ## License
 Copyright 2014, [Compass Informatics Ltd](http://www.compass.ie/).
 
-Licensed under the [MIT License](http://opensource.org/licenses/MIT) or see the [`LICENSE.txt`](https://github.com/adam-p/markdown-here/blob/master/LICENSE) file.
+Licensed under the [MIT License](http://opensource.org/licenses/MIT) or see the [`LICENSE`](https://github.com/compassinformatics/tessera/blob/master/LICENSE) file.
 
 ## Author
 - Michele Scandura - 
